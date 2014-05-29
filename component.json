@@ -2,7 +2,7 @@
   "name": "stream",
   "repo": "marcelklehr/browser-stream",
   "description": "Streams in your browser, node.js-style (compatible with the new streams API)",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "component/emitter":"*"
   },
@@ -13,6 +13,7 @@
     "Readable.js",
     "Writable.js",
     "Duplex.js",
-    "Transform.js"
+    "Transform.js",
+    "index.js"
   ]
 }
