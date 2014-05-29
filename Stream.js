@@ -23,17 +23,6 @@
 var emitter = require('emitter')
 module.exports = Stream;
 
-Stream.Readable = require('./Readable');
-Stream.Writable = require('./Writable');
-Stream.Duplex = require('./Duplex');
-Stream.Transform = require('./Transform');
-//Stream.PassThrough = require('./Passthrough');
-
-// Backwards-compat with node 0.4.x
-Stream.Stream = Stream;
-
-
-
 // old-style streams. Note that the pipe method (the only relevant
 // part of this class) is overridden in the Readable class.
 
