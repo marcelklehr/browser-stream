@@ -2,12 +2,12 @@
   "name": "stream",
   "repo": "marcelklehr/browser-stream",
   "description": "Streams in your browser, node.js-style (compatible with the new streams API)",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {
     "component/emitter":"*"
   },
   "license": "MIT",
-  "main": "Stream.js",
+  "main": "index.js",
   "scripts": [
     "Stream.js",
     "Readable.js",
